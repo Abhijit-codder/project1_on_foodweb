@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodweb</title>
+    <link rel="stylesheet" href="foodwebstyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="signinpage.html"><img src="data:image/png;base64,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" height="30"/>SIGN IN</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="FOODWEB.HTML">  <img src="data:image/png;base64,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" height="25" alt=""/>HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.zomato.com/"><img src="https://www.pngitem.com/pimgs/m/81-813179_large-retail-icon-jual-beli-icon-png-transparent.png" height="30" alt=""/>ORDER</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://recipes.timesofindia.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRy5bNnoekjnXVU3TiXLd8xcXkCiZ3EcBSw&usqp=CAU" height="30" alt=""/>RECEPIE</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.youtube.com/results?search_query=explore+the+food+of+india"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwWmld60dyURHeeylrz_yCsLx983DhKx8zYg&usqp=CAU" height="25" alt=""/>EXPLORE MORE</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </nav>
+
+    </header>
+    
+    <div class="mainhead">
+        <h1 class="header" ><img  class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BgjshcUB36mMF5NoTIpfoN1EkVnlrtizkw&usqp=CAU" height="80" alt=""/>foodweb.com<img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BgjshcUB36mMF5NoTIpfoN1EkVnlrtizkw&usqp=CAU" height="80" alt=""/></h1>
+        <p class="header" >"ULTIMATE WEBSITE FOR ULTIMATE FOOD VARIETIES"</p>
+       
+       
+    </div>
+    <div class="bar"> <input type="text"  placeholder="Search Your Like.."><a href="https://www.google.co.in/"> GOGLE SEARCH</a>
+     </div>
+    <br><br>
+    
+   
+    <div class="intropic">
+        <h2 CLASS="moto">"OUR MOTO"</h2>
+        <img src="shrfood.png" height="230" alt=""/>
+        <img src="ethlty.jfif" height="230" alt=""/>
+        <img src="donotwaste.png" height="230" alt=""/>
+        <img src="indnfood.jfif" height="230" alt=""/>
+        <img src="frmfood.jfif" height="230" alt=""/>
+
+
+    </div>
+    
+    <h2 class="wel">WELCOME TO THE WORLD OF VARIETIES!!</h2>
+    <p class="food">Food is the basic necessity of every organism. Food is a substance that we consume in order to derive energy to run our body and nutrition to grow.</p>
+    
+       
+        <P class="subconti">
+            The Indian sub-continent is blessed with diversity, and with the vast expanse of people, culture and traditions, food becomes a life line, a common connection for all. As a wise person once said, ‘there is no love more sincere, than the love for food’.
+        </P>
+        <div class="cookvideo"> 
+            <iframe width="400" height="200" src="family.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="200" src="vigecting.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="200" src="foodshare.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="200" src="healthyeatingvideo.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="morevideo">||For more video Click on the LINK below||</p>
+            <a href="https://www.pexels.com/search/videos/indian%20food/">pexelsfoodweb</a>
+            
+        
+        
+        
+        </div>
+       
+    
+     <U><H2 class="explore">"TASTE THE NORTH INDIA"</h2></U>
+        <div class="north">
+        
+            <UL><h3 class="key">KEYS OF NORTH INDIA</h3>
+            <H4 class="subhead"><LI>PUNJAB</H4></LI>
+            <img class="makkidiroti" src="punjabfood.jfif" height="300" alt="foodpunjab"  >
+            <P class="font1">Makki ki roti is most often served with Sarson ka Saag (sautéed and spiced mustard greens) and a few jaggery cubes; this delicious combo is quite famous and is very healthy.
+
+                Makki ki roti goes well with any saag, including Palak Saag (made with spinach), bathua saag (cooked with goosefoot leaves) or Chane ka Saag (prepared with chickpea greens). While saag can also be served with Paratha, these maize-flour flatbreads are always the first choice.Makki ki roti can also be served plain for breakfast with a cup of Chai. You can also make them with some chopped greens like fenugreek (methi), spinach (palak) or goosefoot leaves (bathua) to the maize flour and make parathas. I usually make this for breakfast in the winters.
+
+                Makki di roti is a bit heavy on the stomach when compared with other flatbreads, so I like to add carom seeds (ajwain) to help with digestion.
+                
+                Maize flatbreads have to be cooked properly, or else you might get stomach pain. I learned how to make makki ki roti from my Punjabi mother-in-law, and the method shared here is exactly the way we make it at home.
+                
+                </P>
+           
+                <br><br><hr>    
+                <H4 class="subhead"><LI>BIHAR</H4></LI>
+            <img class="lithi" src="litti-chokha-1.jpg" height="300" alt="foodbihar">
+            <P class="font1">The lip-smacking taste of Litti Chokha, savoured by one and all, needs no introduction. It is your grand welcome to the food of Bihar, in all its ghee-dripping glory.Litti is the stuffed whole wheat dough ball and Chokha is a mashed relish that is served with litti. Chokha can be made with roasted eggplant (baingan), boiled or roasted potatoes (aloo) and roasted tomatoes (tamatar). You can make them separately or even combine all three and make one chokha. You can even combine the baingan and tomatoes and make one chokha and make a second one with potatoes.Preparing litti chokha is easy but takes a lot of time. So make them at your own pace and time. For the stuffing you will need sattu. Sattu is basically roasted gram flour. If you do not have sattu, then use roasted chana dal without the husks and grind them. Then sieve the flour and use it.
+
+                Litti is usually roasted on hot charcoal or dried cow dung fire. This is the traditional method of roasting litti and the taste of littis made this way is very different. At homes an oven can be used to bake littis. If you have charcoal based open grill, then you can use it for roasting littis. You can even roast them on tawa or fry them.</P>
+            
+                <br><br><br><br><br><hr>
+                <H4 class="subhead"><LI>HIMACHAL PRADESH</H4></LI>
+            <img class="dhaam" src="hpfood.jfif" height="300" alt="foodhp"> 
+            
+            <P class="font1">Dhaam is a complete food that along with a great taste promises a healthy dose of nutrients. The dish includes dal, rajma, rice, curd, boor ki Kadi and is very well complemented with gur (jaggery).Dham is a traditional vegetarian festive meal of the Indian state of Himachal Pradesh. It is a mid-day meal prepared on auspicious occasions , festivals , weddings, and other religious functions. Traditional Dham is served to people in Himachali cuisine on all such occasions typically on the floor in pattals (plates made of leaves). Himachali cuisine has a unique aroma and flavor due to use of lot of yogurt and spices like chilies, cardamom , cinnamon , turmeric and coriander powder. The food is typically cooked in mustard oil and on low flame. As availability of vegetables is a challenge in the hilly and cold region , the traditional dham has no vegetable dish in it and most of the dishes are made with different lentils and dairy products like curd, ghee, buttermilk , paneer (cottage cheese). The dishes served at a Himachali dham varies from one district to another , here i am sharing the dishes of the dham of Kangra District.
+            </P></UL>
+        </div>
+
+        
+        <U><H2 class="explore">"TASTE THE SOUTH INDIA"</h2></U>
+        <div class="south">
+            <UL><h3 class="key" >KEYS OF SOUTH INDIA</h3>
+               
+                <H4 class="subhead"><LI>TELAGANA</LI></H4>
+            <img class="biryani" src="telanfood.jfif" height="300" alt="foodtelangana">
+            <P class="font1">Thanks to the major influence of Nizams in the state, Hyderabadi Biryani has come to be known worldwide as one of India’s jeweled food items.Hyderabadi biryani, also known as Hyderabadi dum biryani, is a style of biryani from Hyderabad, India made with basmati rice and meat (mostly mutton). Originating in the kitchens of the Nizam of Hyderabad, it combines elements of Hyderabadi and Mughlai cuisines. Hyderabad biryani is a key dish in Hyderabadi cuisine and it is so famous that the dish is considered synonymous with the city of Hyderabad.This recipe is an authentic biryani made in Hyderabad. Homemade biryani masala or spice powder is used, aromatic whole spices are roasted to perfection and then ground to fine powder; added to the chicken for marinating along with other ingredients. This spice powder is a winner, made the chicken taste flavorful and imparted a mesmerizing aroma to the biryani .</P>
+            <br><br><br><br><br><br><hr>
+            <H4 class="subhead"><LI>ODISHA</H4></LI>
+            <img class="pakhala" src="odishafood.jfif" height="300" alt="foododisha">
+            <P class="font1">Pakhala Bhata is the daily lunch for almost every household in Odisha during summers. It is prepared by soaking cooked rice in water and sour curd. Typically left overnight, and often served with potatoes, fried fish, papad and Badi choora, which is dried and nut-like urad and black gram. This fermented rice is the perfect dish to beat the heat and refreshes you from within. 20th March is celebrated as Pakhala Dibasa (Universal Pakhala Day) by all Odias to welcome summer season with Odisha's traditional food. This sumptuous meal is a must try.</P>
+            <br><br><br><br><br><br><BR><BR><BR><hr>
+            <H4 class="subhead"><LI>KERALA</H4></LI>
+            <img class="sadya" src="kerala.jfif" height="300" alt="foodkerala">
+            <P class="font1">A typical Sadya can have about 24–28 dishes served as a single course. In cases where it is a much larger one it can have over 64 or more items, such as the Sadya for Aranmula Boatrace (Valla Sadya).[3] During a traditional Sadya celebration, people are seated cross-legged on mats.[4] Food is eaten with the right hand, without cutlery.[4] The fingers are cupped to form a ladle.[4]
+
+                The main dish is plain boiled rice, served along with other curries, Koottaan (കൂട്ടാന്‍) which include curries like parippu, sambar, rasam, pulisseri and others like kaalan, avial, thoran, olan, pachadi, kichadi, koottukari, erissery, mango pickle, injipuli, mezhukkupuratti, naranga achaar (lime pickle), as well as papadam, plantain chips, sharkara upperi, banana, plain curd and buttermilk.</P></UL>
+        </div>
+        <h2 class="virtualtour">EXPLORE IT VIRTUALLY-"THE TASTE OF NORTH AND SOUTH"!!</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-RUF-rw4gIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yqb804EVwuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 class="foodvariety">State & their Type of Test Buds</h2>
+        <table >
+            <tc>
+                <th>STATE</th>
+                <th>TYPE</th>
+                <th>VARIETY</th>
+            </tc>
+            <tr>
+                <th>UTTRAKHAND</th>
+                <TD>HEALTHY</TD>
+                <TD>87</TD>
+            </tr>
+            <tr>
+                <th>UTTRAPRADESH</th>
+                <TD>LIGHT</TD>
+                <TD>45</TD>
+            </tr>
+            <tr>
+                <th>BIHAR</th>
+                <TD>SPICY</TD>
+                <TD>89</TD>
+            </tr><tr>
+                <th>GUJRAT</th>
+                <TD>NAMKEEN</TD>
+                <TD>56</TD>
+            </tr><tr>
+                <th>WESTBENGAL</th>
+                <TD>SWEET</TD>
+                <TD>67</TD>
+            </tr><tr>
+                <th>ODDISHA</th>
+                <TD>MODERATE</TD>
+                <TD>34</TD>
+            </tr><tr>
+                <th>PUNJAB</th>
+                <TD>SWEET</TD>
+                <TD>45</TD>
+            </tr><tr>
+                <th>KERALA</th>
+                <TD>SWEET</TD>
+                <TD>29</TD>
+            </tr><tr>
+                <th>HIMACHAL PRADESH</th>
+                <TD>SOUR</TD>
+                <TD>23</TD>
+            </tr><tr>
+                <th>TAMIL NADU</th>
+                <TD>CHILLY</TD>
+                <TD>54</TD>
+            </tr>
+
+        </table>
+        <H2 CLASS="unity">"UNITY IN DIVERSITY"</H2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2-5du2oVM5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHr1na5DZ44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1 class="quote">"Indian food is like classical music raga-it takes time to builds up to crescendo"-SHOBHAA DE
+        </h1>
+        <HR>
+       
+               <HR>
+        <div class="ending">
+            <H2 class="footing"><br><B>&nbsp;<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BgjshcUB36mMF5NoTIpfoN1EkVnlrtizkw&usqp=CAU" height="50"/>foodweb.com<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BgjshcUB36mMF5NoTIpfoN1EkVnlrtizkw&usqp=CAU" height="50"/> </B></H2>
+            <u>ABOUT</u>
+            <P>THIS IS A SAMPLE WEBPAGE ON FOODWEB.COM CREATED FOR PRACTICE PURPOSE WITH LOTS OF HARDWOEK!HOPE YOU LIKE IT</P>
+            <u>SPECIAL THANKS</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="ZOMATO.png" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="TFFOOD.jpeg" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="PEXELS.png" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="YT.png" height="60" />
+            <BR><BR>
+            <u>SOCIAL LINKS</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="FB.png" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="insta.jpeg" height="60"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="LINKDIN.png" height="60" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="twitter-text-logo-and-bird.png" height="60"/>
+            <BR><BR>
+           <u>CONTACT US</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <IMG SRC="WhatsApp.svg.webp" HEIGHT="60"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="contact-icons-png-contact-me-png-health-us-icon-8.png" HEIGHT="60"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="112-gmail_email_mail-512.webp" HEIGHT="60"/>           
+        </div>
+            <embed src="https://rr2---sn-4g5ednss.googlevideo.com/videoplayback?expire=1664061303&ei=FzsvY-nOMIe01wL5xaioAw&ip=49.12.104.180&id=o-AFaKgH0Nj-7rDlwvLK_XEkXcG5UDldGMU4ZT-xJ4OWvB&itag=140&source=youtube&requiressl=yes&mh=Vz&mm=31%2C26&mn=sn-4g5ednss%2Csn-f5f7lne6&ms=au%2Conr&mv=m&mvi=2&pl=26&initcwndbps=205000&vprv=1&svpuc=1&mime=audio%2Fmp4&gir=yes&clen=1232168&dur=76.091&lmt=1586431037899331&mt=1664039344&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgdlxIbFO-08tW78P_xS6R7JH15l1HTkfMWSuasWQGayECIQDzz67DEEsiPmyeOpapL5Bn6TZhSIvzCo-QgQD5mxIW_Q%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAI2ZWdOis1zOvzoIKZN8C1-tdcOwSH4fWinEN3ZaMle_AiEAyN4dkVoOgkDPdfreJock3O6q6F4ga3gdl5VO1XbR5gY%3D&title=Cooking+%26+Food+Background+Music.m4a" height="100px" autostart ></embed>
+    
+            
+        </body>
+</html>
